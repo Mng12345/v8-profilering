@@ -36,6 +36,7 @@
     }
   },
   "scripts": {
+    "package": "vsce package",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
@@ -69,5 +70,8 @@
   },
   "dependencies": {
     "mng-easy-util": "^1.5.4"
-  }
+  },
+  "publisher": "v8profilering",
+  "icon": "v8profilering.png",
+  "repository": "https://github.com/Mng12345/v8-profilering"
 }
